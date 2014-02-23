@@ -25,6 +25,10 @@ div h2 {
 	display: inline;
 }
 
+#container {
+	margin: 10px;
+}
+
 #left-col{
 	float: left;
 	width: 60%;
