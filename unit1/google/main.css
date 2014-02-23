@@ -160,6 +160,10 @@ a:hover {
 	color: #404040;
 }
 
+#footer a:hover{
+	text-decoration: underline;
+}
+
 .footer-left {
 
 	padding-left: 25px;
@@ -186,5 +190,4 @@ input:focus {
 
 input:hover:not([type=submit]) {
 	border:  1px solid #DEDEDE;
-
 }
