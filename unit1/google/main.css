@@ -66,8 +66,8 @@ body {
     display: block;
     height: 30px;
     width: 75px;
-    background: #5CACEE;
-    border: 2px solid #5CACEE;
+    background: #1E90FF;
+    border: 2px solid #1E90FF;
     border-radius: 2px;
     color: white;
     text-align: center;
@@ -143,4 +143,30 @@ a:hover {
     text-align: center;
     font-weight: bold;
     line-height: 30px;
+}
+
+#footer {
+	width: 100%;
+	background: linear-gradient(#F2F2F2, #F7F7F7);
+	height: 50px;
+	position: fixed;
+	bottom: 0px;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #404040;
+}
+
+.footer-left {
+
+	padding-left: 25px;
+	float: left;
+	line-height: 50px;
+}
+
+.footer-right {
+	float: right;
+	padding-right: 25px;
+	line-height: 50px;
 }
