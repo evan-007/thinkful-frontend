@@ -151,6 +151,8 @@ a:hover {
 	height: 50px;
 	position: fixed;
 	bottom: 0px;
+	border: 1px solid #E8E8E8;
+    border-radius: 2px;
 }
 
 #footer a {
@@ -169,4 +171,20 @@ a:hover {
 	float: right;
 	padding-right: 25px;
 	line-height: 50px;
+}
+
+input:not([type=submit]) {
+    border: 1px solid #E8E8E8;
+    border-radius: 2px;  
+    padding: 10px;
+}
+
+input:focus {
+	border: 1px solid #00BFFF;
+    border-radius: 2px;
+}
+
+input:hover:not([type=submit]) {
+	border:  1px solid #DEDEDE;
+
 }
