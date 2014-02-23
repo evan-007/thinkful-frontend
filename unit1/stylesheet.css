@@ -25,27 +25,37 @@ div h2 {
 	display: inline;
 }
 
-#projects{
+#left-col{
 	float: left;
+	width: 60%;
+}
+
+#right-col{
+	float: right;
+	width: 30%;
+}
+
+#projects{
+	
 }
 
 #headshot{
-	float: right;
+	
 }
 #exp{
-	float: left;
+	
 }
 
 #edu{
-	float: right;
+	
 }
 
 #skills{
-	float: left;
+	
 }
 
 #interests{
-	float: right;
+	
 }
 
 .heading {
