@@ -8,6 +8,7 @@ div {
 }
 
 div h2 {
+	text-align: center;
 	font-family: cursive;
 }
 
@@ -52,7 +53,7 @@ div h2 {
 }
 
 #headshot{
-	
+	text-align: center;
 }
 #exp{
 	
@@ -81,4 +82,12 @@ a {
 a:visited{
 	text-decoration: none;
 	color: blue;
+}
+
+div > ul {
+	list-style-type: none;
+}
+
+ul ul li {
+	padding: 7px 0 5px 0;
 }
