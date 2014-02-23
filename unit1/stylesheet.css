@@ -1,13 +1,51 @@
 body {
 	font-family: sans-serif;
+	background-color: gray;
+}
+
+div {
+	border: solid 5px blue;
+	border-radius: 5px;
+	background-color: white;
 }
 
 div h2 {
 	font-family: cursive;
 }
 
+#intro {
+	text-align: center;
+}
+
 #intro h1{
 	font-size: 135%;
+}
+
+#intro p{
+	display: inline;
+}
+
+#projects{
+	float: left;
+}
+
+#headshot{
+	float: right;
+}
+#exp{
+	float: left;
+}
+
+#edu{
+	float: right;
+}
+
+#skills{
+	float: left;
+}
+
+#interests{
+	float: right;
 }
 
 .heading {
