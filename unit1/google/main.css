@@ -102,13 +102,13 @@ a:hover {
 	width: 225px;
 	height: auto;
 	display: block;
-	margin-left: 450px;
+	margin: 0 auto;
 	padding-top: 230px;
 }
 
 #search {
-	margin-top: 10px;
-	margin-left: 160px;
+	display: block;
+	margin: 0 auto;
 	background-image: url('microphone.png');
 	background-repeat: no-repeat;
 	background-position: 450px;
@@ -116,8 +116,8 @@ a:hover {
 }
 
 #submit {
+	text-align: center;
 	margin-top: 10px;
-	margin-left: 450px;
 	text-decoration: none;
 }
 
