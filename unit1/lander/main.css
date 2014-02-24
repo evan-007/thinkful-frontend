@@ -1,5 +1,5 @@
 body {
-	background: red;
+	background: white;
 	font-family: Arial;
 }
 
@@ -8,13 +8,13 @@ body {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: white;
+	background-color: gray;
 }
 
 .logo {
 	font-size: 30px;
 	padding: 0 30px 0 30px;
-
+	color: black;
 	text-decoration: none;
 }
 
@@ -33,9 +33,35 @@ body {
 .top {
 	position: fixed;
 	left: 0;
-	margin: 50px 0 0 0;
+	margin: 50px 20px;
 	background-image: url('joepass.jpg');
 	background-repeat: no-repeat;
 	height: 400px;
 	width: 100%;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: black;
+}
+
+.bottom {
+	margin: 0 15px;
+	text-decoration: none;
+	color: white;
+}
+
+.bottom.left {
+	float: left;
+}
+
+.bottom.left:before {
+	content: '\00A9';
+}
+
+.bottom.right {
+	float: right;
 }
