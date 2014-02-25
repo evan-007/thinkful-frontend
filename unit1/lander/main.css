@@ -8,13 +8,13 @@ body {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: gray;
+	background-color: #C0C0C0;
 }
 
 .logo {
 	font-size: 30px;
 	padding: 0 30px 0 30px;
-	color: black;
+	color: #000044;
 	text-decoration: none;
 }
 
@@ -30,22 +30,63 @@ body {
 	content: '\266B';
 }
 
-.top {
-	position: fixed;
-	left: 0;
-	margin: 50px 20px;
-	background-image: url('joepass.jpg');
-	background-repeat: no-repeat;
-	height: 400px;
-	width: 100%;
+.logo.left:after {
+	content: '\266A'
 }
 
+.top {
+	width: 95%;
+	height: 300px;
+	margin: 50px 0 auto;
+	border: 5px solid red;
+}
+
+#pass {
+	height: 250px;
+	width: auto;
+	overflow: hidden;
+	margin: 5px 5px;
+	float: left;
+}
+
+#example {
+	margin: 5px 0 auto;
+	text-align: center;
+
+
+}
+
+#example li {
+	list-style-type: none;
+	margin: 2px;
+}
+
+#example li:before {
+	content: '\266A   ';
+}
+
+#chords {
+	overflow: hidden;
+	width: 250px;
+	height: auto;
+	background-image: url("drop2dom7.jpg");
+}
+
+#cta {
+	display: block;
+	margin: 0 auto; 
+	height: 50px;
+	width: 130px;
+	background-color: red;
+	border-radius: 3px;
+}
 .footer {
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	width: 100%;
 	background-color: black;
+
 }
 
 .bottom {

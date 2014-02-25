@@ -8,13 +8,13 @@ body {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: #F1B2E1;
+	background-color: #3B3B3B;
 }
 
 .logo {
 	font-size: 30px;
 	padding: 0 30px 0 30px;
-	color: #3B3B3B;
+	color: #C0C0C0;
 	text-decoration: none;
 }
 
@@ -36,7 +36,7 @@ body {
 	margin: 40px auto;
 	height: 400px;
 	width: 100%;
-	border: 1px solid black;
+	border: 5px solid black;
 }
 
 .footer {
