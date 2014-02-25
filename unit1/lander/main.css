@@ -97,15 +97,38 @@ body {
 }
 
 .box {
+	margin: 20px;
 	display: inline-block;
-	height: 200px;
+	height: 320px;
 	width: 200px;
-	border: solid red 1px;
+	border: solid #CAE5FF 1px;
+}
+
+.box h2:before {
+	content: '\2669  ';
 }
 
 .box h2 {
 	text-align: center;
 	font-style: bold;
+}
+
+.box p {
+	float: left;
+	margin-left: 5px;
+}
+
+.box img {
+	height: 100px;
+	width: auto;
+	float: left;
+}
+
+.form {
+	width: 700px;
+	height: 100px;
+	background-color: #DCDCDC;
+	margin: 0 auto;
 }
 
 #footer {
