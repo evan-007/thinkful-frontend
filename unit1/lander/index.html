@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -16,12 +16,22 @@
 			<div class="top">
 				<div id="pass"><img src="joepass.jpg" /></div>
 				<div id="example">
-					<p>A new chord, everyday in your browser</p>
+					<p>Learn a new chord, everyday in your browser or email</p>
 					<ul>
 						<li>Tab</li>
 						<li>Standard Notation</li>
 						<li>MP3 samples</li>
 					</ul>
+					<div class="cotd">
+						<p>February 25: Cmaj</p>
+						<img src="cmaj.png" />
+						<img src="cmaj-tab.png" />
+						<audio controls>
+							<media location="amaj9.ogg" type="audio/ogg">
+							<media location="amaj9.mp3" type="audio/mpeg">
+							Your browser does not support the audio element.
+						</audio>
+					</div>
 				</div>
 			</div>
 
@@ -31,8 +41,8 @@
 
 			<div class="box">
 				<h2>Favorites</h2>
-				<p>Save your favorite voicings for easy access and printing</p>
-				<p>Make charts for your students</p>
+				<p>Save your favorite voicings</p>
+				<p>Print chord charts for practicing</p>
 				<img src="chord.png" />
 			</div>
 
@@ -46,16 +56,17 @@
 			<div class="box">
 				<h2>Dictionary</h2>
 				<p>Need 200 ways to play a minor 7b5?</p>
+				<p>...with the b3 in the bass?</p>
+
 				<img src="chord3.png" />
 			</div>
 
 			<div class="form">
-				<p>Sign up for free</p>
-				<form name="input" action="" method="">
-					Email: <input type="text" name="email">
+				<p id="cta">Sign up for free</p>
+				<form name="input" >
+					Email: <input type="email", placeholder="you@example.com" name="email">
 					Password: <input type="password" name="pwd">
-
-					<input type="submit" value="Submit">
+					<input type="submit" value="Submit" >
 				</form>
 			</div>
 		</div><!--body-->

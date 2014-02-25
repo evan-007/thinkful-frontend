@@ -4,7 +4,6 @@ body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
-
 }
 
 #container {
@@ -47,14 +46,14 @@ body {
 }
 
 .top {
-	width: 95%;
-	height: 300px;
+	
+	height: 350px;
 	margin: 50px 0 auto;
 	border: 5px solid #6699CC;
 }
 
 #pass {
-	height: 250px;
+	height: 300px;
 	width: auto;
 	overflow: hidden;
 	margin: 5px 5px;
@@ -62,10 +61,13 @@ body {
 }
 
 #example {
-	margin: 5px 0 auto;
+	margin: 10px 50px;
 	text-align: center;
+}
 
-
+#example p {
+    font-weight: bold;
+    font-size: 1.3em;
 }
 
 #example li {
@@ -73,8 +75,26 @@ body {
 	margin: 2px;
 }
 
-#example li:before {
+#example li:nth-child(-n+3):before {
 	content: '\266A   ';
+}
+
+.cotd {
+	border: black solid 1px;
+	width: 300px;
+	display: inline-block;
+	background-color: #A1A1A1;
+}
+
+
+.cotd img {
+	width: 80px;
+	height: auto;
+}
+
+.cotd audio {
+	display: block;
+	margin: 0 auto;
 }
 
 #chords {
@@ -103,6 +123,7 @@ body {
 	height: 320px;
 	width: 200px;
 	border: solid #CAE5FF 1px;
+	background-color: #009999;
 }
 
 .box h2 {
@@ -155,7 +176,8 @@ body {
 .box img {
 	height: 100px;
 	width: auto;
-	float: left;
+	display: block;
+	margin: 0 auto
 }
 
 .form {
@@ -163,7 +185,11 @@ body {
 	height: 100px;
 	background-color: #DCDCDC;
 	margin: 0 auto;
+	line-height: 40px;
+	/* is using line height the best idea?*/
 }
+
+
 
 #footer {
 	position: absolute;
