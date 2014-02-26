@@ -3,6 +3,10 @@ body {
 	background-color: #DCDCDC;
 }
 
+li  {
+	padding-bottom: 10px;
+}
+
 div {
 	background-color: #FFFFFD;
 }
@@ -25,6 +29,7 @@ div h2 {
 
 #intro p{
 	display: inline;
+	padding-left: 20px;
 }
 
 #container {
@@ -48,27 +53,14 @@ div h2 {
 	padding: 10px;
 }
 
-#projects{
-	
-}
-
 #headshot{
 	text-align: center;
 }
-#exp{
-	
-}
 
-#edu{
-	
-}
 
-#skills{
-	
-}
-
-#interests{
-	
+#skills ul, #interests ul {
+	text-align: center;
+	padding: 0;
 }
 
 .heading {
