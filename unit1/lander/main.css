@@ -111,9 +111,12 @@ body {
 	width: 230px;
 	background-color: #003366;
 	border-radius: 3px;
-	line-height: 30px;
 	text-align: center;
 	color: white;
+}
+
+#cta p {
+	padding-top: 5px;
 }
 
 .box {
@@ -185,8 +188,10 @@ body {
 	height: 100px;
 	background-color: #DCDCDC;
 	margin: 0 auto;
-	line-height: 40px;
-	/* is using line height the best idea?*/
+}
+
+.form p{
+	padding-top: 10px;
 }
 
 
